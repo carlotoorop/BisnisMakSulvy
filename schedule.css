@@ -1,0 +1,120 @@
+
+
+body {
+	background-color: #fca4a6;
+
+}	
+
+
+/* isi */
+h1 {
+	padding-top: 50px;
+	text-align: center;
+	color: White;
+}
+
+.column {
+	float: left;
+	width: 22%;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.row {
+	margin-left: 150px;
+	animation-name: up;
+	animation-duration: 1.5s;
+	position: relative;
+}
+
+@keyframes up {
+	from {bottom: -300px; opacity:0;}
+	to {bottom: 0; opacity: 1;}
+}
+
+/*Responsive columns */
+@media screen and (max-width: 700px) {
+	.column {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+	
+	.row {
+		margin: auto;
+	}
+}
+h1 {
+	padding-top: 90px;
+	
+}
+
+.card {
+	text-align: center;
+	background-color: #c1576a;
+	border-radius: 10px;
+	padding-bottom: 8px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+} 
+
+img {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+#fon:hover {
+	background-color: #05E0E9;
+}
+
+#foe:hover {
+	background-color: #1B75C8;
+}
+
+#com:hover {
+	background-color: #584910;
+}
+
+#fop:hover {
+	background-color: #C44E00;
+}
+
+#fom:hover {
+	background-color: #9DCD5A;
+}
+
+#fod:hover {
+	background-color: #149631;
+}
+
+#bs:hover {
+	background-color: #C0C0C0;
+}
+
+#sistech:hover {
+	background-color: #C44E00;
+}
+
+#fos:hover {
+	background-color: #FFFF00;
+}
+
+#foa:hover {
+	background-color: #1F628E;
+}
+
+#fol:hover {
+	background-color: #FF0000;
+}
+
+#soh:hover {
+	background-color: #800000;
+}
+
